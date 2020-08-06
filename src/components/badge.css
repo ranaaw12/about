@@ -1,0 +1,61 @@
+
+
+
+/*--------------------------------------------------------------
+# Facts
+--------------------------------------------------------------*/
+.facts {
+    padding-bottom: 30px;
+    padding-top: 5rem;
+  }
+  .section-title h2{
+      font-weight: 800;
+  }
+  .section-title p{
+      font-size: 16px;
+      font-weight: 500;
+  }
+  
+  .facts .count-box {
+    padding: 30px;
+    width: 100%;
+  }
+  
+  .facts .count-box .iconsmile {
+    display: block;
+    font-size: 44px;
+    color: #149ddd !important;
+    float: left;
+  }
+  
+  .facts .count-box span {
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: #050d18;
+    margin-left: 60px;
+  }
+  
+  .facts .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #149ddd;
+  }
+  
+  .facts .count-box a {
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    color: #149ddd;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .facts .count-box a:hover {
+    color: #1f5297;
+  }
+  

@@ -1,0 +1,16 @@
+.cards:hover{
+
+    box-shadow: 5px 10px 20px 1px #111;
+}
+.backcolor{
+    background-color: #243B55 !important;
+}
+.modalbodycolor{
+    background-color: #262626 !important;
+}
+.modalheadingcolor{
+    background-color: #111 !important;
+}
+
+
+  

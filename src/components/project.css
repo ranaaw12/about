@@ -1,0 +1,34 @@
+.sliderback{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 40%;
+
+}
+@media(max-width:1024px){
+    .sliderback{
+        margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70%;
+        
+    }
+}
+
+.proPage{
+    width: 100%;
+    background: #262626;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    
+}
+.heading{
+        
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+
+}
+.heading h1{
+    font-weight: 800;
+}

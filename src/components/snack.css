@@ -1,0 +1,14 @@
+.FadeIn{
+    animation: fadeIn 8s;
+}
+@keyframes fadeOut{
+  from{
+      opacity: 1;
+  }
+  to{
+    opacity: 0;
+}
+}
+.rating{
+    background-color: black;
+}

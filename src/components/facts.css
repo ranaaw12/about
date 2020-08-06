@@ -1,0 +1,97 @@
+#about{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+.section-title h2{
+  text-align: center;
+  font-weight: 600;
+}
+#about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #f12020;
+}
+
+#about .content ul {
+  list-style: none;
+  padding: 0;
+}
+#about .content ul li{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+#about p{
+  font-size: 16px;
+}
+#about .content ul li .defineee{
+  color: #f12020 !important;
+}
+#about .content p:last-child {
+  margin-bottom: 0;
+  
+}
+
+
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+
+#services{
+  padding-top: 5rem;
+}
+.services .icon-box {
+  margin-bottom: 20px;
+}
+
+.services .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+}
+
+.services .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+.services .icon-box:hover .icon {
+  background: #f12020;
+}
+
+.services .icon-box:hover .icon i {
+  color: #149ddd;
+}
+
+.services .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title a {
+  color: #050d18;
+}
+
+.services .title a:hover {
+  color: #149ddd;
+}
+
+.services .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
