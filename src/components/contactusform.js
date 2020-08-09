@@ -15,9 +15,6 @@ export default function ContactUsForm() {
         <Grid container spacing={3}>
           
           <Grid item xs={12} sm={6}>
-          <SimpleMap/>
-          </Grid>
-          <Grid item xs={12} sm={6}>
             <div className="contctpge">
 <div className="container containerform">
 <div class="text">
@@ -74,6 +71,9 @@ export default function ContactUsForm() {
     </div>
 </Grid>
 
+<Grid item xs={12} sm={6}>
+          <SimpleMap/>
+          </Grid>
 </Grid>
 </div>
            </>

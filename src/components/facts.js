@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "./facts.css";
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import LanguageIcon from '@material-ui/icons/Language';
+import Awais from './awaispic.jpg';
 
 
 
@@ -22,7 +23,7 @@ export default function AboutSection() {
 
         <div className="row">
           <div className="col-lg-4">
-            <img src={process.env.PUBLIC_URL+"awaispic.jpg"} class="img-fluid" alt=""/>
+            <img src={Awais} class="img-fluid" alt=""/>
           </div>
           <div className="col-lg-8 pt-4 pt-lg-0 content">
             <h3>UI/UX Designer &amp; Web Developer.</h3>

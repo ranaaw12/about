@@ -9,6 +9,7 @@ import Main from './progressbar';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Typical from 'react-typical';
+import Awais from './awaispic.jpg';
 
 
 
@@ -45,7 +46,7 @@ const LandingPage = () =>{
                 </div>
                 
                 <div className="flex2">
-                <img data-aos="fade-up" data-aos-anchor=".other-element" src={process.env.PUBLIC_URL+"awaispic.jpg"} alt="my-pic"
+                <img data-aos="fade-up" data-aos-anchor=".other-element" src={Awais} alt="my-pic"
                 className="rounded-circle"/>
          </div>
                  <div data-aos="fade-left" data-aos-anchor=".other-element" className="flex3">

@@ -11,6 +11,25 @@ import Typography from '@material-ui/core/Typography';
 import './card.css';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
+import Pic from './pics/pic.png';
+import Pic1 from './pics/pic1.png';
+import Pic2 from './pics/pic2.png';
+import Pic3 from './pics/pic3.png';
+import Pic4 from './pics/pic4.png';
+import Pic5 from './pics/pic5.png';
+import Pic6 from './pics/pic6.png';
+import Pic7 from './pics/pic7.png';
+import Pic8 from './pics/pic8.png';
+import Pic9 from './pics/pic9.png';
+import Pic10 from './pics/pic10.png';
+import Pic11 from './pics/pic11.png';
+import Pic12 from './pics/pic12.png';
+import Pic13 from './pics/pic13.png';
+import Pic14 from './pics/pic14.png';
+import Pic15 from './pics/pic15.png';
+import Pic16 from './pics/pic16.png';
+import Pic17 from './pics/pic17.png';
+import Pic18 from './pics/pic18.png';
 
 
 
@@ -66,7 +85,7 @@ export default function ImgMediaCard() {
           component="img"
           alt="Contemplative Reptile"
           height="180"
-          image={process.env.PUBLIC_URL+"card.png"}
+          image={Pic}
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -107,7 +126,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic1.png"}
+          src={Pic1}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -116,7 +135,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic5.png"}
+          src={Pic5}
           alt="Second slide"
         />
 
@@ -126,7 +145,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic3.png"}
+          src={Pic3}
           alt="Third slide"
         />
 
@@ -166,7 +185,7 @@ export default function ImgMediaCard() {
           component="img"
           alt="Contemplative Reptile"
           height="180"
-          image={process.env.PUBLIC_URL+"pic1.png"}
+          image={Pic1}
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -206,7 +225,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic6.png"}
+          src={Pic6}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -215,7 +234,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic7.png"}
+          src={Pic7}
           alt="Second slide"
         />
 
@@ -225,7 +244,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic8.png"}
+          src={Pic8}
           alt="Third slide"
         />
 
@@ -266,7 +285,7 @@ export default function ImgMediaCard() {
           component="img"
           alt="Contemplative Reptile"
           height="180"
-          image={process.env.PUBLIC_URL+"pic2.png"}
+          image={Pic2}
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -306,7 +325,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic9.png"}
+          src={Pic9}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -315,7 +334,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic10.png"}
+          src={Pic10}
           alt="Second slide"
         />
 
@@ -325,7 +344,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic11.png"}
+          src={Pic11}
           alt="Third slide"
         />
 
@@ -365,7 +384,7 @@ export default function ImgMediaCard() {
           component="img"
           alt="Contemplative Reptile"
           height="180"
-          image={process.env.PUBLIC_URL+"pic3.png"}
+          image={Pic3}
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -406,7 +425,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic12.png"}
+          src={Pic12}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -415,7 +434,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic13.png"}
+          src={Pic13}
           alt="Second slide"
         />
 
@@ -425,7 +444,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic14.png"}
+          src={Pic14}
           alt="Third slide"
         />
 
@@ -465,7 +484,7 @@ export default function ImgMediaCard() {
           component="img"
           alt="Contemplative Reptile"
           height="180"
-          image={process.env.PUBLIC_URL+"pic4.png"}
+          image={Pic4}
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -506,7 +525,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic15.png"}
+          src={Pic15}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -515,7 +534,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic16.png"}
+          src={Pic16}
           alt="Second slide"
         />
 
@@ -525,7 +544,7 @@ export default function ImgMediaCard() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+"pic17.png"}
+          src={Pic17}
           alt="Third slide"
         />
 

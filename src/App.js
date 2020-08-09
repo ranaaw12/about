@@ -9,7 +9,7 @@ import BallotIcon from '@material-ui/icons/Ballot';
 import ContactsIcon from '@material-ui/icons/Contacts';
 import HomeIcon from '@material-ui/icons/Home';
 import SentimentVerySatisfiedIcon from '@material-ui/icons/SentimentVerySatisfied';
-
+import Logo from './components/logo2.png';
 
 class App extends Component {
   render(){
@@ -19,26 +19,21 @@ class App extends Component {
     
         
         <Header className="header-gradient" title=" "  scroll>
-        <img  src={process.env.PUBLIC_URL+"logo2.png"} alt="my-pic" className="logoss"/>
+        <img  src={Logo} alt="my-pic" className="logoss"/>
 
             <Navigation>
-                <Link className="navlink" to="/"><HomeIcon/>Home</Link>
-                <Link className="navlink" to="/resume"><BookIcon/>Resume</Link>
+            <Link to="/" className="drawerNavbar"><BookIcon className="drawerNavbar"/>Home</Link>
+                    <Link className="navlink" to="/resume"><BookIcon/>Resume</Link>
                 <Link className="navlink" to="/project"><BallotIcon/>Project</Link>
                 <Link className="navlink" to="/about"><SentimentVerySatisfiedIcon/>About</Link>
                 <Link className="navlink" to="/contact"><ContactsIcon/>Contact</Link>
             </Navigation>
-            <Textfield className= "search-field"
-    onChange={() => {}}
-    label="Expandable Input"
-    expandable
-    expandableIcon="search"
-/>
+
              </Header>
         <Drawer  className="drawerColor">
-        <img  src={process.env.PUBLIC_URL+"logo2.png"} alt="my-pic" className="logos"/>
+        <img  src={Logo} alt="my-pic" className="logos"/>
             <Navigation>
-            <Link className="drawerNavbar" to="/"><HomeIcon/>Home</Link>
+            <Link to="/" className="drawerNavbar"><BookIcon className="drawerNavbar"/>Home</Link>
               <Link to="/resume" className="drawerNavbar"><BookIcon className="drawerNavbar"/>Resume</Link>
                 <Link to="/project"className="drawerNavbar"><BallotIcon/>Project</Link>
                 <Link to="/about"className="drawerNavbar"><SentimentVerySatisfiedIcon/>About</Link>

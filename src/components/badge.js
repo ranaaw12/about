@@ -6,6 +6,9 @@ import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import PeopleIcon from '@material-ui/icons/People';
 import BallotIcon from '@material-ui/icons/Ballot';
 import QueryBuilderIcon from '@material-ui/icons/QueryBuilder';
+import Avataar from './pics/avataar.jpg'; 
+import Avataar2 from './pics/avataar2.jpg';
+import Awais from './pics/awaispic.jpg'; 
 
 
 
@@ -122,10 +125,10 @@ export default function ImageAvatars() {
     
     <div >
       <div className={classes.root}>
-      <Avatar className={classes.large} alt="Remy Sharp" src={process.env.PUBLIC_URL+"avataar.jpg"} />
+      <Avatar className={classes.large} alt="Remy Sharp" src={Avataar} />
       
-      <Avatar className={classes.large} alt="Travis Howard" src={process.env.PUBLIC_URL+"avataar2.jpg"} />
-      <Avatar className={classes.large} alt="Cindy Baker" src={process.env.PUBLIC_URL+"awaispic.jpg"} />
+      <Avatar className={classes.large} alt="Travis Howard" src={Avataar2} />
+      <Avatar className={classes.large} alt="Cindy Baker" src={Awais} />
     </div>
     <div className={classes.child}>
     <h4>Jena Karlis</h4>
