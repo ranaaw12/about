@@ -9,6 +9,8 @@ import QueryBuilderIcon from '@material-ui/icons/QueryBuilder';
 import Avataar from './pics/avataar.jpg'; 
 import Avataar2 from './pics/avataar2.jpg';
 import Awais from './pics/awaispic.jpg'; 
+import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
 
 
 
@@ -80,42 +82,58 @@ export default function ImageAvatars() {
       <div className="container">
 
         <div className="section-title">
+          <Zoom duration={2000}>
           <h2>Facts</h2>
+          </Zoom>
+          <Slide left duration={2000}>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </Slide>
         </div>
 
         <div className="row no-gutters">
 
           <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+          <Zoom duration={2000}>
+            
             <div className="count-box">
               <InsertEmoticonIcon className="iconsmile" style={{ fontSize: 40 }}/>
               <span >232</span>
               <p><strong>Happy Clients</strong> consequuntur quae</p>
             </div>
+            </Zoom>
           </div>
 
           <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+          <Zoom duration={2000}>
+            
             <div className="count-box">
             <BallotIcon className="iconsmile"/>
               <span>521</span>
               <p><strong>Projects</strong> adipisci atque cum quia aut</p>
             </div>
+            </Zoom>
           </div>
 
           <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+          <Zoom duration={2000}>
+            
             <div className="count-box">
             <QueryBuilderIcon className="iconsmile"/>
               <span >1,463</span>
               <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
             </div>
+            </Zoom>
           </div>
 
           <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+          <Zoom duration={2000}>
+            
             <div className="count-box">
               <PeopleIcon className="iconsmile"/>
               <span>15</span>
               <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
             </div>
+            </Zoom>
           </div>
 
         </div>
@@ -124,18 +142,22 @@ export default function ImageAvatars() {
     </div>
     
     <div >
+    <Zoom duration={2000}>
       <div className={classes.root}>
       <Avatar className={classes.large} alt="Remy Sharp" src={Avataar} />
       
       <Avatar className={classes.large} alt="Travis Howard" src={Avataar2} />
       <Avatar className={classes.large} alt="Cindy Baker" src={Awais} />
     </div>
+    </Zoom>
+    
     <div className={classes.child}>
     <h4>Jena Karlis</h4>
     <h4>Alias Charles</h4>
       
       <h4>Rana Owais</h4>
     </div>
+    
     <div className={classes.subchild}>
     <p>Freelancer</p>
     <p>Enterprenour</p>

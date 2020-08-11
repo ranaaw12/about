@@ -22,7 +22,7 @@ class App extends Component {
         <img  src={Logo} alt="my-pic" className="logoss"/>
 
             <Navigation>
-            <Link to="/" className="drawerNavbar"><BookIcon className="drawerNavbar"/>Home</Link>
+            <Link to="/" className="navlink"><BookIcon/>Home</Link>
                     <Link className="navlink" to="/resume"><BookIcon/>Resume</Link>
                 <Link className="navlink" to="/project"><BallotIcon/>Project</Link>
                 <Link className="navlink" to="/about"><SentimentVerySatisfiedIcon/>About</Link>

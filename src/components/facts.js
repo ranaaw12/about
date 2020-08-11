@@ -3,6 +3,7 @@ import "./facts.css";
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import LanguageIcon from '@material-ui/icons/Language';
 import Awais from './awaispic.jpg';
+import Zoom from 'react-reveal/Zoom';
 
 
 
@@ -22,9 +23,11 @@ export default function AboutSection() {
         </div>
 
         <div className="row">
+          <Zoom duration={2000}>
           <div className="col-lg-4">
             <img src={Awais} class="img-fluid" alt=""/>
           </div>
+          </Zoom>
           <div className="col-lg-8 pt-4 pt-lg-0 content">
             <h3>UI/UX Designer &amp; Web Developer.</h3>
             <p className="">
@@ -76,36 +79,51 @@ provide warm , proffessional , knowldgeable  services to our clients.
         </div>
 
         <div className="row">
+        <Zoom duration={2000}>
           <div className="col-lg-4 col-md-6 icon-box">
             <div className="icon"><LanguageIcon/></div>
             <h4 className="title"><a href="">HTML5 Web Design & Development</a></h4>
             <p className="description">Appnovation’s HTML5 Web Development Services can deliver and deploy a complete HTML5 solution into your business environment that is optimized for high performance with quick loading times, scalable and responsive and able to handle any increases in visitor traffic.</p>
           </div>
+          </Zoom>
+          <Zoom duration={2000}>
           <div className="col-lg-4 col-md-6 icon-box">
             <div className="icon"><LanguageIcon/></div>
             <h4 className="title"><a href="">Enterprise Web Development & Design</a></h4>
             <p className="description"> closely with enterprise level customers to create outstanding high performing and secure custom websites with a focus on unique, professional web design. Whatever your project requires, Appnovation has the tools and experience to ensure that your goals are not only met, but&</p>
           </div>
+          </Zoom>
+          <Zoom duration={2000}>
           <div className="col-lg-4 col-md-6 icon-box">
             <div className="icon"><LanguageIcon/></div>
             <h4 className="title"><a href="">Laravel Design & Development</a></h4>
             <p className="description">Using an agile development methodology to deliver our Laravel-based solutions, Appnovation’s expert Laravel developers can design and build web-based properties and/or applications that will meet your specific user, business, industry and/or vertical needs.</p>
           </div>
+          </Zoom>
+          <Zoom duration={2000}>
+          
           <div className="col-lg-4 col-md-6 icon-box">
             <div className="icon"><LanguageIcon/></div>
             <h4 className="title"><a href="">Reactjs Design & Development</a></h4>
             <p className="description">Appnovation’s Reactjs Web Development Services can deliver and deploy a complete HTML5 solution into your business environment that is optimized for high performance with quick loading times, scalable and responsive and able to handle any increases in visitor traffic.</p>
           </div>
+          </Zoom>
+          <Zoom duration={2000}>
+
           <div className="col-lg-4 col-md-6 icon-box">
             <div className="icon"><LanguageIcon/></div>
             <h4 className="title"><a href="">Bootstrap4 Design & Development</a></h4>
             <p className="description">Appnovation’s Bootstrap4 Web Development Services can deliver and deploy a complete HTML5 solution into your business environment that is optimized for high performance with quick loading times, scalable and responsive and able to handle any increases in visitor traffic.</p>
           </div>
+        </Zoom>
+        <Zoom duration={2000}>
+
           <div className="col-lg-4 col-md-6 icon-box">
             <div className="icon"><LanguageIcon/></div>
             <h4 className="title"><a href="">HTML5 CSS3 javascript jquery Design & Development</a></h4>
             <p className="description">Appnovation’s HTML5 CSS3 javascript jquery Web Development Services can deliver and deploy a complete HTML5 solution into your business environment that is optimized for high performance with quick loading times, scalable and responsive and able to handle any increases in visitor traffic.</p>
           </div>
+          </Zoom>
         </div>
 
       </div>

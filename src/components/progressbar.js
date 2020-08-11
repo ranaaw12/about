@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './progress.css';
+import Slide from 'react-reveal/Slide';
 
 
 const Progress = ({done}) => {
@@ -15,11 +16,13 @@ const Progress = ({done}) => {
 	}, 200);
 	
 	return (
+		
 		<div className="progress">
+			<Slide left duration={2000}>
 			<div className="progress-done" style={style}>
 				{done}%
 			</div>
-            
+            </Slide>
 		</div>
         
 	)
@@ -30,7 +33,7 @@ const Main = () => (
 	<div className="mainclass">
         <div className="progressmain">
 		<h6>HTML5</h6>
-		<Progress data-aos="fade-up" data-aos-anchor=".other-element" done="99"/>
+		<Progress  done="99"/>
 
 		</div>
 

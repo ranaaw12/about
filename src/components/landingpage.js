@@ -10,7 +10,10 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Typical from 'react-typical';
 import Awais from './awaispic.jpg';
-
+import Zoom from 'react-reveal/Zoom';
+import RubberBand from 'react-reveal/RubberBand';
+import Slide from 'react-reveal/Slide';
+import Flip from 'react-reveal/Flip';
 
 
 
@@ -27,7 +30,9 @@ const LandingPage = () =>{
 
                <div className=" flex1"> 
                <h6 className="animate__animated animate__flash animate__repeat-3 animate__slow">Hi!</h6>
-                <h3 className="animate__animated animate__bounce animate__repeat-3 animate__slow">Here I'm Hafiz Awais!</h3>
+               <RubberBand  duration={2000}>
+                <h3 className="">Here I'm Hafiz Awais!</h3>
+                </RubberBand>
                 <p>
                     <Typical 
                     loop={Infinity}
@@ -56,21 +61,39 @@ const LandingPage = () =>{
                 
             </section>
             <div  className="paragraph ovrrlayy" >
-                     <p className="container" data-aos="fade-up" data-aos-anchor=".other-element">Hi! I am expert in to design attractive user interface, I have experienced on  
+            <Slide left duration={2000}>
+                     <p className="container">Hi! I am expert in to design attractive user interface, I have experienced on  
                       </p>
-                      <p data-aos="fade-up" data-aos-anchor=".other-element">different technologies like Database Management Systems or    </p>
-                         <p data-aos="fade-up" data-aos-anchor=".other-element">other once. I am committed to my work. I have experienced 
+                      </Slide>
+                      <Slide left duration={2000} >        <p>different technologies like Database Management Systems or    
+
                       </p>
-                         <p data-aos="fade-up" data-aos-anchor=".other-element">to know valuable things of clients. My mission is to  </p>
-                         <p data-aos="fade-up" data-aos-anchor=".other-element">provide warm , proffessional , knowldgeable 
+                      </Slide>
+                      <Slide left duration={2000}>
+                         <p>other once. I am committed to my work. I have experienced 
+                      </p>
+                      </Slide>
+                      <Slide left duration={2000}>
+                         <p>to know valuable things of clients. My mission is to  
+
                          </p>
-                         <p data-aos="fade-up" data-aos-anchor=".other-element">services to our clients.</p>
+                         </Slide>
+                         <Slide left duration={2000}>
+                         <p>provide warm , proffessional , knowldgeable 
+                         </p>
+                         </Slide>
+                         <Slide left duration={2000}>     <p>services to our clients.</p></Slide>
                      
                 <div  className="icons container">
-                <FontAwesomeIcon  className="icns" icon={faGem} data-aos="fade-up" data-aos-anchor=".other-element"/>
-               <FontAwesomeIcon  className="icns" icon={faClock} data-aos="fade-up" data-aos-anchor=".other-element"/>
-               <FontAwesomeIcon className="icns" icon={faStar} data-aos="fade-up" data-aos-anchor=".other-element"/>
-               
+                <Flip top duration={2000}>
+                <FontAwesomeIcon  className="icns" icon={faGem}/>
+               </Flip>
+               <Flip top duration={2000}>
+               <FontAwesomeIcon  className="icns" icon={faClock}/>
+               </Flip>
+               <Flip top duration={2000}>
+               <FontAwesomeIcon className="icns" icon={faStar}/>
+               </Flip>
 
                 
                  </div>
@@ -84,7 +107,9 @@ const LandingPage = () =>{
                  </div>
                  
                  <div className="badge">
+                     <Zoom  duration={2000}>
                      <h1>Skills</h1>
+                     </Zoom>
                  <Main/>
                  
             </div>

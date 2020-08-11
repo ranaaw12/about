@@ -30,7 +30,7 @@ import Pic15 from './pics/pic15.png';
 import Pic16 from './pics/pic16.png';
 import Pic17 from './pics/pic17.png';
 import Pic18 from './pics/pic18.png';
-
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -77,7 +77,7 @@ export default function ImgMediaCard() {
     <>
     <Grid container spacing={4} className={classes.gridContainer} justify="center">
     <Grid item xs={12} sm={6} md={4}>
-    
+    <Fade bottom duration={2000}>
     <Card  className={classes.root} className="cards" onClick={() => setttShow(true)}>
       <CardActionArea className={classes.actionareaa}>
         <CardMedia
@@ -107,7 +107,7 @@ export default function ImgMediaCard() {
         </Button>
       </CardActions>
     </Card>
-
+</Fade>
     <Modal
         show={shows}
         onHide={() => setttShow(false)}
@@ -177,7 +177,7 @@ export default function ImgMediaCard() {
     </Grid>
 
     <Grid item xs={12} sm={6} md={4}>
-    
+    <Fade bottom duration={2000}>
     <Card  className={classes.root} className="cards" onClick={() => sett2Show(true)}>
       <CardActionArea className={classes.actionareaa}>
         <CardMedia
@@ -206,7 +206,7 @@ export default function ImgMediaCard() {
         </Button>
       </CardActions>
     </Card>
-
+    </Fade>
     <Modal
         show={shows2}
         onHide={() => sett2Show(false)}
@@ -277,6 +277,7 @@ export default function ImgMediaCard() {
 
 
     <Grid item xs={12} sm={6} md={4}>
+    <Fade bottom duration={2000}>
     
     <Card  className={classes.root} className="cards" onClick={() => sett3Show(true)}>
       <CardActionArea className={classes.actionareaa}>
@@ -306,7 +307,7 @@ export default function ImgMediaCard() {
         </Button>
       </CardActions>
     </Card>
-
+</Fade>
     <Modal
         show={shows3}
         onHide={() => sett3Show(false)}
@@ -376,6 +377,7 @@ export default function ImgMediaCard() {
 
 
     <Grid item xs={12} sm={6} md={4}>
+    <Fade bottom duration={2000}>
     
     <Card  className={classes.root} className="cards" onClick={() => sett4Show(true)}>
       <CardActionArea className={classes.actionareaa}>
@@ -406,7 +408,7 @@ export default function ImgMediaCard() {
         </Button>
       </CardActions>
     </Card>
-
+</Fade>
     <Modal
         show={shows4}
         onHide={() => sett4Show(false)}
@@ -476,6 +478,7 @@ export default function ImgMediaCard() {
 
 
     <Grid item xs={12} sm={6} md={4}>
+    <Fade bottom duration={2000}>
     
     <Card  className={classes.root} className="cards" onClick={() => sett5Show(true)}>
       <CardActionArea className={classes.actionareaa}>
@@ -506,7 +509,7 @@ export default function ImgMediaCard() {
         </Button>
       </CardActions>
     </Card>
-
+</Fade>
     <Modal
         show={shows5}
         onHide={() => sett5Show(false)}

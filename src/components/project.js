@@ -5,6 +5,7 @@ import './project.css';
 import ImgMediaCard from './card';
 import ImageAvatars from './badge';
 import Sliderfade from './fadeslider';
+import Zoom from 'react-reveal/Zoom';
 
   export default function Project(){
      
@@ -18,8 +19,12 @@ import Sliderfade from './fadeslider';
             </div>
             <div className="proPage">
            <div className="heading">
+           <Zoom  duration={2000}>
+
                <h1>PROJECTS</h1>
+               </Zoom>
                </div>
+
                
                
            <ImgMediaCard/>
